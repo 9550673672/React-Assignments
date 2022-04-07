@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container{
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  border: 5px solid;
+  border-color: deeppink;
+}
+.name{
+  color: #58d6e3;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.img{
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 15%;
+}
+.details{
+  padding: 20px;
+  margin: auto;
+}
+h4{
+  color:grey;
+  font-style: normal;
+  font-weight: bold;
+}
+p{
+  color:black;
+  font-style: normal;
+  font-weight: bold;
 }
